@@ -1,115 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-#main{
-    width: 100%;
-    height: 100%;
-    /* background: #664444; */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* min-height: 400px; */
-    padding-top: 100px;
-    background-image:url('./wave-haikei\ \(1\).png') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    /* flex-wrap: wrap; */
-
+#main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-image: url("./wave-haikei\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-img{
-    /* max-width: 100%;
-    width: 100%;
-    height: 50%; */
-    object-fit: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: antiquewhite; */
+img {
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.text{
-    width: 100%;
-    height: 50%;
-   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-    color: #fff;
+.text {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: #fff;
 }
-.text h1{
-    font-size:4rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 20px;
+.text h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.text h3{
-    font-size: 25px;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-align: center;
+.text h3 {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
 }
-#Ebtn{
-    margin-top: 5vh;
-    /* padding-left: 0px; */
+#Ebtn {
+  margin-top: 5vh;
 }
-#Ebtn ,#btn{
-    border: none;
-    outline: none;
-    padding: 0px 0px;
-    padding-right: 15px;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 1.2vw;
-    font-weight: 700;
-    /* cursor: pointer; */
-    transition: all 0.3s ease;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(16, 231, 231);
-    
+#Ebtn,
+#btn {
+  border: none;
+  outline: none;
+  padding: 0px 0px;
+  padding-right: 15px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(16, 231, 231);
 }
-#btn{
-    background-color: rgb(16, 231, 231);
-    padding-left: 20px;
-    text-transform: uppercase;
-    font-size: 1.2vw;
-    font-weight: 700;
-    font-size: 22px;
-    
+#btn {
+  background-color: rgb(16, 231, 231);
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  font-weight: 700;
+  font-size: 22px;
 }
-#email{
-    border: none;
-    outline: none;
-    padding: 20px 50px;
-    border-radius: 50px;
-    font-size: 20px;
-    text-transform: capitalize;
+#email {
+  border: none;
+  outline: none;
+  padding: 20px 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
-
-#Ebtn:hover{
-    background-color: rgb(16, 231, 231);
-    color: #fff;
-    transform: scale(1.1);
-    cursor: pointer;
-}   
- 
-/* increase font sixe h1 for large screen; */
+#Ebtn:hover {
+  background-color: rgb(16, 231, 231);
+  color: #fff;
+  transform: scale(1.1);
+  cursor: pointer;
+}
